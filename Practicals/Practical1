@@ -1,0 +1,15 @@
+import java.time.*;
+
+public class Practical1
+{
+    public static void main(String[] args)
+    {
+        LocalDate D1 = LocalDate.now();
+        LocalTime T1= LocalTime.now();
+        System.out.println(D1);
+        System.out.println(T1);
+        System.out.println("En.no:200130107094 Name:Darji Anurag");
+        System.out.println("Practical 1");
+        System.out.println("\nWelcome to Java, \nLearning Java Now and Programming is fun");
+    }
+}
